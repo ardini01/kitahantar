@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>kitahantar</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+	<link rel="stylesheet" href="style.css">
+	<link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+	<body class="contact"></body>
+<header>
+	<div class="logo">
+		<img src="images/logo.png" width="150px">
+	</div>
+
+	<nav class="navbar">
+		<a href="index.html">Home</a>
+		<a href="about.html">About Us</a>
+		<a href="products.html">Products</a>
+		<a href="contact.html">Contact Us</a>
+	</nav>
+
+	<div class="icons">
+		<div class="fas fa-shopping-cart" id="cart-icon"></div>
+		<div class="fas fa-user" id="login-btn"></div>
+	</div>
+
+	<form action="" class="login-form">
+		<h3>login now</h3>
+		<input type="email" placeholder="your email" class ="box">
+		<input type="password" placeholder="your password" class ="box">
+		<p>Forgot password?<a href="#">Click Here</a></p>
+		<p>Don"t have an account?<a href="#">Create Now</a></p>
+		<input type="submit" value="Login" class ="btn">
+		
+	</form>
+
+</header>
+<section>
+
+
+
+	<div class="contactUs">
+		<div class="contact-title">
+			<h2>Contact Us</h2>
+		</div>
+		<div class="contact-box">
+			<!--form-->
+			<div class="contact form">
+				<h3>Send a Message</h3>
+				<form>
+					<div class="formbox">
+						<div class="row50">
+							<div class="inputbox">
+								<span>Name</span>
+								<input type="text" placeholder="Sarah">
+							</div>
+						</div>
+
+						<div class="row50">
+							<div class="inputbox">
+								<span>Email</span>
+								<input type="text" placeholder="sarah@gmail.com">
+							</div>
+							<div class="inputbox">
+								<span>Mobile</span>
+								<input type="text" placeholder="0113456790">
+							</div>
+						</div>
+						<div class="row100">
+							<div class="inputbox">
+								<span>Message</span>
+								<textarea placeholder="Write your message here..."></textarea>
+							</div>
+						</div>
+
+						<div class="row100">
+							<div class="inputbox">
+								<input type="submit" value="Send">
+							</div>
+						</div>						
+					</div>
+				</form>
+			</div>
+
+			<!--info box-->
+
+			<div class="contact info">
+				<h3>Contact Info</h3>
+				<div class="infobox">
+					<div>
+						<span><ion-icon name="location"></ion-icon></span>
+						<p>Block 7H, Batu 7 ½ Jalan Rawang, Selayang 68100 Batu Caves Selangor Darul Ehsan<br>MALAYSIA</p>
+					</div>
+					<div>
+						<span><ion-icon name="mail"></ion-icon></span>
+						<a href="mailto:kitahantar@kitahantar.com">kitahantar@kitahantar.com</a>
+					</div>
+					<div>
+						<span><ion-icon name="call"></ion-icon></span>
+						<a href="tel:+603 5845 8088">+603 5845 8088</a>
+					</div>
+					<!--social media-->
+					<ul class="sci">
+						<li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+						<li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+						<li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+	
+					</ul>
+				</div>
+			</div>
+				
+			<!--Map-->
+			<div class="contact map">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3983.431962409131!2d101.66451903988884!3d3.242243624487768!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2smy!4v1643222088770!5m2!1sen!2smy" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+				
+			</div>
+		</div>
+	</div>
+</section>
+
+<!--contact section ends-->
+<!--cart--->
+    <div class="cart">
+        <h2 class="cart-title">Your Cart</h2>
+        <!--content-->
+        <div class="cart-content">
+
+            <div class="cart-box">
+                <img src="images/kerapu.jpg" alt="" class="cart-img" width="150px">
+                <div class="detail-box">
+                    <div class="cart-product-title">Kerapu</div>
+                    <div class="cart-price">RM16</div>
+                    <input type="number" value="1" class="cart-quantity">
+                </div>
+                <!--remove cart-->
+                <i class='bx bxs-trash-alt cart-remove'></i>
+            </div>
+        </div>
+        <!--total-->
+        <div class="total">
+            <div class="total-title">Total</div>
+            <div class="total-price">RM0</div>
+            
+        </div>
+        <!--buy button-->
+        <button type="button" class="btn-buy">Buy Now</button>
+        <!--cart close-->
+        <i class='bx bx-x' id="close-cart"></i>
+    </div>
+	<footer class="section-footer">
+        <div class="col">
+            <img class = logo src="images/logo.png" alt="" width="150px">
+
+            <h4>Contact</h4>
+            <p><strong>Address:</strong> Block 7H, Batu 7 ½ Jalan Rawang, Selayang 68100 Batu Caves Selangor Darul Ehsan<br>MALAYSIA</p>
+            <p><strong>Phone:</strong> +603 5845 8088</p>
+            <p><strong>Hours:</strong> 9am - 5pm, Mon - Sun, Except Friday</p>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>    
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>    
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="images/app.jpg">
+                <img src="images/play.jpg"> 
+            </div>
+            <p>Secured Payment Gateaways</p>
+            <img src="images/pay.png">
+        </div>
+
+        <div class="copyright">
+            <p>&copy; 2022, kitahantar - Your Online Grocery Store No.1 in Malaysia</p>
+
+            
+        </div>
+
+
+    </footer>
+
+
+	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
